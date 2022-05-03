@@ -4,7 +4,7 @@ AM_SILENT_RULES([yes])
 
 AC_SUBST([LIBRDATA_VERSION], [0.1.0-prerelease])
 
-LT_INIT([disable-static])
+LT_INIT([])
 
 AC_PROG_CC
 AC_PROG_CC_STDC
